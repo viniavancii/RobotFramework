@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.10.1 on win32)" generated="20220127 11:32:26.630" rpa="false" schemaversion="2">
+<suite id="s1" name="Tarefas" source="C:\CursoRobot\SiteTestePractice\tests\Tarefas.robot">
+<test id="s1-t1" name="Cenário 05: Criar e-mail">
+<kw name="Acessar ele" library="Resource">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://opensource-demo.orangehrmlive.com/</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220127 11:32:32.767" level="INFO">Opening browser 'chrome' to base url 'https://opensource-demo.orangehrmlive.com/'.</msg>
+<status status="PASS" starttime="20220127 11:32:32.766" endtime="20220127 11:32:42.774"/>
+</kw>
+<status status="PASS" starttime="20220127 11:32:32.766" endtime="20220127 11:32:42.775"/>
+</kw>
+<kw name="E-mail custom" library="Resource">
+<msg timestamp="20220127 11:32:42.776" level="FAIL">Keyword 'Resource.E-mail custom' expected 2 arguments, got 0.</msg>
+<status status="FAIL" starttime="20220127 11:32:42.775" endtime="20220127 11:32:42.776"/>
+</kw>
+<kw name="Informar um e-mail válido" library="Resource">
+<status status="NOT RUN" starttime="20220127 11:32:42.776" endtime="20220127 11:32:42.776"/>
+</kw>
+<tag>cenario5</tag>
+<status status="FAIL" starttime="20220127 11:32:32.721" endtime="20220127 11:32:42.777">Keyword 'Resource.E-mail custom' expected 2 arguments, got 0.</status>
+</test>
+<status status="FAIL" starttime="20220127 11:32:26.633" endtime="20220127 11:32:42.779"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">cenario5</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Tarefas">Tarefas</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
